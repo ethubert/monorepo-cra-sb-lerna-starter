@@ -1,6 +1,6 @@
 {
   "name": "365",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
