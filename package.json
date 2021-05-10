@@ -1,6 +1,6 @@
 {
   "name": "365",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -9,5 +9,9 @@
   },
   "publishConfig": {
     "registry": "http://0.0.0.0:4873/"
-  }
+  },
+  "scripts": {
+    "publish": "lerna publish --no-git-tag-version --no-push --registry=\"http://localhost:4873/\""
+  },
+  "version": "0.1.11"
 }
