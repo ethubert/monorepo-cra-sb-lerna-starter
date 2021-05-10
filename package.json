@@ -1,0 +1,13 @@
+{
+  "name": "365",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://0.0.0.0:4873/"
+  }
+}
